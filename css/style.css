@@ -17,12 +17,8 @@ li{
     margin: 0 1rem;
 }
 
-div:not(.footer-section){
+div:not(.footer-container){
     padding: 1rem 20% 1rem;
-}
-
-.text-center{
-    text-align: center;
 }
 
 /* Header */
@@ -31,31 +27,33 @@ div.menu{
     background-color: rgb(251, 255, 0);
 }
 
-div.header-section{
+div.header-container{
     height: 20rem;
     background-color: rgb(255, 187, 0);
     padding: 1rem 25% 1rem;
+    text-align: center;
 }
 
 /* Main */
-div.main-section{
+div.main-container{
     height: 20rem;
     background-color: rgb(0, 255, 149);
 }
 
-div.text-center.main-section{
+div.main-footer-container{
     background-color:  rgb(0, 255, 213);
     height: 40rem;
+    text-align: center;
 }
 
 /* Footer */
 section.flex{
     padding: 1rem 20% 1rem;
     background-color: grey;
+    height: 30rem;
 }
 
-div.footer-section{
-    height: 30rem;
+div.footer-container{
     flex-basis: 17.5%;
 }
 
@@ -63,7 +61,7 @@ div.big{
     flex-basis: 30%;
 }
 
-div.footer{
+div.footer-footer-container{
     justify-content: space-between;
     background-color: cornflowerblue;
 }
